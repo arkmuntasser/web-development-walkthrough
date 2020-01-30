@@ -69,3 +69,38 @@ This doesn't mean that HTML wont change or it wont get anything added to it, qui
 #### `<html>`
 
 This formally starts the HTML document defining our page. You'll notice the `lang="en"` attribute. This informs the browser and visitor that the language of this page is English. If you will be using a different language than English, you can update the "en" with the appropriate [locale string for your desired language](https://www.science.co.il/language/Locale-codes.php).
+
+#### `<head>`
+
+This tag is where we define a number of items pertaining to the page such as whether it's responsive, the title of the page, any resources you may need for styles or functionality and fonts.
+
+#### `<meta>`
+
+With these tags we can define a number of different things about the page. Let's breakdown the 3 in the example above:
+
+##### `<meta charset="UTF-8">`
+
+Here we define the character encoding we want to use for the page. [UTF-8 is the Unicode character](https://en.wikipedia.org/wiki/UTF-8) set that encompasses pretty much every character you could want to type. You don't need to change this.
+
+##### `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+With this, we are ensuring that the site is responsive.
+
+This defines the viewport to have a width equal to the device width. Here 'device width' is a bit confusing as it makes it sound like it's referring to physical hardware like a phone or tablet, but it actually means the size of the browser window.
+
+Next it sets the initial scale to 1. You can think of this as the zoom level of the page like when you pinch-to-zoom on a page. By default, we want everything visible and not zoomed in our out so we set it to 1.
+
+##### `<meta http-equiv="X-UA-Compatible" content="ie=edge">`
+
+This is to help ensure compatibility with older version of Internet Explorer. If you don't need to support Internet Explorer, you can actually delete this line, but leaving it in wont hurt anything.
+
+#### `<title>`
+
+This controls the title of the page; specifically it controls the text that shows in the tab in your browser.
+
+#### `<body>`
+
+Finally, the body tag is where the actual content of the page will live and where we'll be doing all of our work for the remainder of this section covering HTML.
+
+### Semantic HTML
+
