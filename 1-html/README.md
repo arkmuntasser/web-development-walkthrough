@@ -25,7 +25,7 @@ If you get stuck, you can always reference the code in the demo folder as needed
 
 To kick us off, we're going to need a file to work in for our homepage.
 
---Create a new file called `index.html` inside the `/exercise` folder.--
+> *Create a new file called `index.html` inside the `/exercise` folder.*
 
 Why is this file called 'index'? Why not 'home' or 'homepage' or 'my-cool-site'? Well, it very well could be those things if you wanted it to be. It's not a strict rule that you have to call the homepage HTML file 'index', but your life as a web developer will be a lot easier if you do.
 
